@@ -1,0 +1,10 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/ConsoleApp1/.vs/ConsoleApp1/DesignTimeBuild
+/ConsoleApp1/.vs/ConsoleApp1/FileContentIndex
+/ConsoleApp1/.vs/ConsoleApp1/v17
+/ConsoleApp1/.vs/ProjectEvaluation
+/ConsoleApp1/ConsoleApp1/bin/Debug/net6.0
+/ConsoleApp1/ConsoleApp1/obj
