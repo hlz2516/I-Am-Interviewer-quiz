@@ -8,9 +8,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            byte a = 255;
-            a += 5;
-            Console.WriteLine(a);
+            
         }
     }
 }
