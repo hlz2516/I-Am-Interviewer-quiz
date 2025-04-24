@@ -55,6 +55,11 @@ xaml解析器在解析特性值时，会优先按照标记扩展（大括号包�
 - 文本内容：即Content属性，有少量 XAML 元素可直接将文本作为其内容来处理。 若要实现此功能，必须满足以下条件之一：
   + 类必须声明一个内容属性，并且该内容属性必须是可赋值给字符串的类型（该类型可以是 Object）。
   + 类型必须声明一个类型转换器，该类型转换器将文本内容用作初始化文本。例如，\<Brush\>Blue\</Brush\> 将 Blue 的内容值转换为画笔。 这种情况实际上并不常见。
+- 标记扩展：举例：
+```
+<Button Style="{StaticResource MyStyle}">My button</Button>
+```
+{StaticResource MyStyle}就是标记扩展，xaml解析器遇到标记扩展时会根据其内容生成对象赋给属性。
 
 如有异议，详情见[某乎文章](https://zhuanlan.zhihu.com/p/661914689)及[微软doc](https://learn.microsoft.com/zh-cn/dotnet/desktop/wpf/advanced/xaml-syntax-in-detail?view=netframeworkdesktop-4.8)
 
